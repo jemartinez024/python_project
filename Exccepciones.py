@@ -411,6 +411,10 @@ Para obtener más información sobre las excepciones integradas de Python, consu
 
 5. Por último, pero no menos importante, debes recordar cómo probar y depurar tu código. Utiliza técnicas de depuración como depuración de impresión; si es posible - pide a alguien que lea tu código y te ayude a encontrar errores o mejorarlo; intenta aislar el fragmento de código que es problemático y susceptible a errores: prueba tus funciones aplicando valores de argumento predecibles, y trata de manejar las situaciones en las que alguien ingresa valores incorrectos; comenta las partes del código que ocultan el problema. Finalmente, toma descansos y vuelve a tu código después de un tiempo con un par de ojos nuevos."""
 
+"""
+4.7.15 PRUEBA DE SECCIÓN
+Pregunta 1: ¿Cuál es la salida del siguiente programa si el usuario ingresa un 0?
+
 
 try:
     value = int(input("Ingresa un número entero: "))
@@ -421,4 +425,17 @@ except ZeroDivisionError:
     print("Entrada errónea...")
 except:
     print("¡Buuuu!")
+ 
+Ocultar
+El programa dará como salida: Entrada errónea....
 
+Pregunta 2: ¿Cuál es la salida del siguiente programa si el usuario ingresa un 0?
+
+
+value = input("Ingresa un número entero: ")
+print(10/value)
+ 
+Ocultar
+El programa generará una excepción TypeError.
+
+"""
