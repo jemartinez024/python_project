@@ -1,5 +1,7 @@
 def display_board(board):
-    board[1, 2, 3] [1, 4, 7]# La función acepta un parámetro el cual contiene el estado actual del tablero
+    board = [['1', '2', '3']
+             ['4', '5', '6']
+             ['7', '8', '9']]# La función acepta un parámetro el cual contiene el estado actual del tablero
     print(display_board)# y lo muestra en la consola.
 
 
