@@ -2,12 +2,20 @@ import random
 
 # Función para imprimir el tablero
 def imprimir_tablero(tablero):
-    print(f"{tablero[0]} | {tablero[1]} | {tablero[2]}")
-    print("--+---+--")
-    print(f"{tablero[3]} | {tablero[4]} | {tablero[5]}")
-    print("--+---+--")
-    print(f"{tablero[6]} | {tablero[7]} | {tablero[8]}")
-
+    print("+-------+-------+-------+")
+    print(f"|       |       |       |")
+    print(f"|   {tablero[0]}   |   {tablero[1]}   |   {tablero[2]}   |")
+    print(f"|       |       |       |")
+    print("+-------+-------+-------+")
+    print(f"|       |       |       |")
+    print(f"|   {tablero[3]}   |   {tablero[4]}   |   {tablero[5]}   |")
+    print(f"|       |       |       |")
+    print("+-------+-------+-------+")
+    print(f"|       |       |       |")
+    print(f"|   {tablero[6]}   |   {tablero[7]}   |   {tablero[8]}    |")
+    print(f"|       |       |       |")
+    print("+-------+-------+-------+")
+     
 # Función para verificar si hay un ganador
 def verificar_ganador(tablero, jugador):
     # Combinaciones ganadoras
