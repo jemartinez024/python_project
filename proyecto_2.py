@@ -12,7 +12,7 @@ def imprimir_tablero(tablero):
     print(f"|       |       |       |")
     print("+-------+-------+-------+")
     print(f"|       |       |       |")
-    print(f"|   {tablero[6]}   |   {tablero[7]}   |   {tablero[8]}    |")
+    print(f"|   {tablero[6]}   |   {tablero[7]}   |   {tablero[8]}   |")
     print(f"|       |       |       |")
     print("+-------+-------+-------+")
      
